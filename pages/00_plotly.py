@@ -7,11 +7,11 @@ st.title("서울특별시 연령별 남녀 인구 분포 (2025년 4월)")
 # 깃허브 raw 파일 경로 입력
 male_female_url = st.text_input(
     "남녀구분 인구 CSV 파일의 깃허브 raw URL을 입력하세요.",
-    value="https://raw.githubusercontent.com/사용자명/저장소명/브랜치명/폴더경로/202504_202504_연령별인구현황_월간_남녀구분.csv"
+    value="https://github.com/tay1orr/25vibecoding0_dataproject/blob/main/202504_202504_%EC%97%B0%EB%A0%B9%EB%B3%84%EC%9D%B8%EA%B5%AC%ED%98%84%ED%99%A9_%EC%9B%94%EA%B0%84_%EB%82%A8%EB%85%80%EA%B5%AC%EB%B6%84.csv"
 )
 sum_url = st.text_input(
     "남녀합계 인구 CSV 파일의 깃허브 raw URL을 입력하세요.",
-    value="https://raw.githubusercontent.com/사용자명/저장소명/브랜치명/폴더경로/202504_202504_연령별인구현황_월간_남녀합계.csv"
+    value="https://github.com/tay1orr/25vibecoding0_dataproject/blob/main/202504_202504_%EC%97%B0%EB%A0%B9%EB%B3%84%EC%9D%B8%EA%B5%AC%ED%98%84%ED%99%A9_%EC%9B%94%EA%B0%84_%EB%82%A8%EB%85%80%ED%95%A9%EA%B3%84.csv"
 )
 
 tab1, tab2 = st.tabs(["남녀구분", "남녀합계"])
