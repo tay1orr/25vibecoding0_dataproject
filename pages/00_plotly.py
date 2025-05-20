@@ -2,8 +2,8 @@ import streamlit as st
 import pandas as pd
 import plotly.graph_objects as go
 
-male_female_url = "https://github.com/tay1orr/25vibecoding0_dataproject/blob/main/202504_202504_%EC%97%B0%EB%A0%B9%EB%B3%84%EC%9D%B8%EA%B5%AC%ED%98%84%ED%99%A9_%EC%9B%94%EA%B0%84_%EB%82%A8%EB%85%80%EA%B5%AC%EB%B6%84.csv"
-sum_url = "https://github.com/tay1orr/25vibecoding0_dataproject/blob/main/202504_202504_%EC%97%B0%EB%A0%B9%EB%B3%84%EC%9D%B8%EA%B5%AC%ED%98%84%ED%99%A9_%EC%9B%94%EA%B0%84_%EB%82%A8%EB%85%80%ED%95%A9%EA%B3%84.csv"
+male_female_url = "https://github.com/tay1orr/25vibecoding0_dataproject/blob/main/202504_202504_222.csv"
+sum_url = "https://github.com/tay1orr/25vibecoding0_dataproject/blob/main/202504_202504_111.csv"
 
 st.title("서울특별시 연령별 남녀 인구 분포 (2025년 4월)")
 
